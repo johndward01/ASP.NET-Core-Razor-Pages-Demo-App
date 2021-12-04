@@ -1,3 +1,7 @@
+using MySql.Data.MySqlClient;
+using Microsoft.Extensions.Configuration;
+using System.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
